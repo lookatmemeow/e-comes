@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="app.js"></script>
+    <title>Kattdaddy</title>
+</head>
+<body>
+  <h1> Product list</h1>
+   <div>
+        <h2> </h2>
+   </div>
+</body>
+</html>
+
+<script>
+
+    fetch('./product.json')
+        .then((response) => response.json(""))
+        .then((json) => console.log(json));
+
+</script>
+
